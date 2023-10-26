@@ -39,41 +39,44 @@ class ContactForm extends Component {
     // onSubmit -> figure out how to make it send an email
 
     render() {
-        <form onSubmit={this.handleSubmit}>
-            <div class="name">
-                <label>Full Name</label>
-                <input 
-                    type="text"
-                    value={this.state.name}
-                    onChange={this.setName}
-                />
-            </div>
-            <div class="email">
-                <label>Email</label>
-                <input
-                    type="text"
-                    value={this.state.email}
-                    onChange={this.setEmail} 
-                />
-            </div>
-            <div class="number">
-                <label>Phone Number</label>
-                <input 
-                    type="text"
-                    value={this.state.number}
-                    onChange={this.setNumber}
-                />
-            </div>
-            <div class="message">
-                <label>Message</label>
-                <input
-                    type="text"
-                    value={this.state.message}
-                    onChange={this.setMessage}
-                />
-            </div>
+        // <form onSubmit={this.handleSubmit}>
+        //     <div class="name">
+        //         <label>Full Name</label>
+        //         <input 
+        //             type="text"
+        //             value={this.state.name}
+        //             onChange={this.setName}
+        //         />
+        //     </div>
+        //     <div class="email">
+        //         <label>Email</label>
+        //         <input
+        //             type="text"
+        //             value={this.state.email}
+        //             onChange={this.setEmail} 
+        //         />
+        //     </div>
+        //     <div class="number">
+        //         <label>Phone Number</label>
+        //         <input 
+        //             type="text"
+        //             value={this.state.number}
+        //             onChange={this.setNumber}
+        //         />
+        //     </div>
+        //     <div class="message">
+        //         <label>Message</label>
+        //         <input
+        //             type="text"
+        //             value={this.state.message}
+        //             onChange={this.setMessage}
+        //         />
+        //     </div>
             
-            <button type="submit">Send Message</button>
-        </form>
+        //     <button type="submit">Send Message</button>
+        // </form>
+        return(<h1 style="font-color:white">HIIIIII</h1>)
     }
 }
+
+export default ContactForm;
