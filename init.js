@@ -1,6 +1,4 @@
-function download() {
-    if (document.querySelectorAll("*")) {
-        document.querySelectorAll("*")["loading"].style.visibility="hidden";
-        document.querySelectorAll("*")["loaded"].style.visibility="visible";
-    }
-}
+var loader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                loader.style.display = "none";
+            })

@@ -16,7 +16,7 @@ div {
 }
 
 section {
-    padding-top: 100px; 
+    padding-top: 75px; 
 }
 
 .resume {
@@ -30,6 +30,26 @@ h1 {
 .heading {
     font-size:32px;
     color: rgb(150, 197, 227); 
+    padding-top: 30px; 
+    display: flex; 
+    flex-direction: row;
+    max-width: 950px;
+    margin: auto;
+}
+
+.heading:before, .heading:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid rgb(150, 197, 227);
+    margin: auto;
+}
+
+.heading:before {
+    margin-right: 10px;
+}
+
+.heading:after {
+    margin-left: 10px;
 }
 
 ul {
@@ -82,7 +102,6 @@ button {
     border-color: transparent;
     padding: 10px 20px;
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 button:hover {
@@ -110,9 +129,9 @@ img {
 .intro-info {
     vertical-align: middle;
     box-sizing: border-box;
-    padding-left: 50px;
-    padding-right: 100px;
-    max-width: 900px;
+    padding-left: 75px;
+    padding-right: 50px;
+    max-width: 950px;
     margin: auto;
     padding-top: 10px;
 }
@@ -123,22 +142,24 @@ img {
 
 h4 {
     text-align: left;
-    margin-left: 150px;
     font-size: 24px;
     font-weight: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
 }
 
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     font-size: 16px;
+    text-align: left;
 }
 
 .unclickable-buttons { 
     background: transparent;
     color: rgb(150, 197, 227);
-    border: 2px solid rgb(150, 197, 227);
+    border: 2px solid rgb(76, 135, 171);
+    margin: 5px;
 }
 
 .unclickable-buttons:hover {
@@ -148,7 +169,9 @@ p {
 
 h5 {
     text-align: left;
-    margin-left: 150px;
+    font-size: 18px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 50%;
 }
 
 #preloader {
@@ -158,4 +181,47 @@ h5 {
     width: 100%; 
     position: fixed; 
     z-index: 999999; 
+}
+
+#resume {
+    max-width: 950px; 
+    margin: auto; 
+    padding-top: 50px;
+}
+
+#projects {
+    max-width: 950px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%
+}
+
+.info {
+    text-align: center;
+}
+
+#contact {
+    padding-bottom: 200px;
+}
+
+.name:hover {
+    color: rgb(121, 124, 222);
+}
+
+h3 {
+    text-align: center;
+}
+
+a.text {
+    color:white; 
+}
+
+a.text:hover {
+    color: rgb(121, 124, 222);
 }
