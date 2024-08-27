@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <title>ASTRID WIMMER</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="mouse-move-effect"></div>
+        <div class="container" id="homepage">
+            <h2>*** ASTRID WIMMER - PROFILE ***</h2>
+            <div class="main-content">
+                <section class="about">
+                    <h3>> ABOUT</h3>
+                    <p>
+                        Hi! I'm Astrid Wimmer, an undergraduate student at the University of Central Florida. 
+                        I am currently pursuing a B.S. in Computer Science, with Minors in Physics and Math. 
+                        In my free time, I love learning languages, dancing, and 
+                        <a href="https://www.goodreads.com/user/show/129449001-astrid" target="_blank">reading fantasy novels</a>!
+                    </p>
+                </section>
+                <section class="work">
+                    <h3>> WORK</h3>
+                    <ul class="no-bullets"> 
+                        <li>
+                            <h4><a id="education-link">EDUCATION</a></h4>
+                        </li>
+                        <li>
+                            <h4><a id="experience-link">EXPERIENCE</a></h4>
+                        </li>
+                        <li>
+                            <h4><a id="projects-link">PROJECTS</a></h4>
+                        </li>
+                        <li>
+                            <h4><a id="skills-link">SKILLS</a></h4>
+                        </li>
+                        <li>
+                            <h4><a href="assets/resume.pdf" target="_blank" class="resume">FULL RESUME</a></h4>
+                        </li>
+                    </ul>
+                </section>
+                <section class="contact">
+                    <h3>> CONTACT</h3>
+                    <div class="contact-links">
+                        <h4><a href="mailto:astrid.wimmer08@gmail.com">EMAIL</a></h4>
+                        <h4><a href="https://github.com/assient818" target="_blank">GITHUB</a></h4>
+                        <h4><a href="https://www.linkedin.com/in/astrid-wimmer-906b7527b/" target="_blank">LINKEDIN</a></h4>
+                    </div>
+                </section>   
+            </div>   
+            <div id="popups">
+                <div class="popup" id="education-popup">
+                    <div class="popup-header">
+                        <div class="title" style="font-style: bolder;">
+                            > EDUCATION
+                        </div>
+                        <div id="education-exit">
+                            <a href="#homepage">EXIT</a>
+                        </div>
+                    </div>
+                    <div class = "popup-content">
+                        <div class="popup-text">
+                            <h3>UNIVERSITY OF CENTRAL FLORIDA</h3>
+                            <h4>B.S. in Computer Science
+                            <h4>Minors in Physics + Math</h4>
+                            <p>Expected Graduation: December 2025</p>
+                            <p>GPA: 4.0</p>
+                            <p>Relevant Courses: 
+                                <ul class="with-bullets">
+                                    <li>Object-Oriented Programming</li>
+                                    <li>Computer Science 1 + 2 (Data Structures and Algorithms)</li>
+                                    <li>Robot Vision</li>
+                                    <li>Artificial Intelligence</li> 
+                                    <li>Quantum Information Processing</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <img src="assets/ucfLogo.png" class="ucf-logo">
+                        <div class="throwaway"></div>
+                    </div>
+                </div>
+                <div class="popup" id="experience-popup">
+                    <div class="popup-header">
+                        <div class="title">
+                            > EXPERIENCE
+                        </div>
+                        <div id="experience-exit">
+                            <a>EXIT</a>
+                        </div>
+                    </div>
+                    <div class="popup-content">
+                        <div>
+                            <h3>Undergraduate Researcher</h3>
+                            <h4>University of Central Florida</h4>
+                            <h4 class="italicized">February 2024 -- Present</h4>
+                            <p>
+                                <ul class="with-bullets">
+                                    <li>Develop robotic technologies to autonomously perform agricultural tasks, such as pruning and harvesting fruit, using computer vision and AI/ML</li>
+                                    <li>Train machine learning models using Python (PyTorch) with YOLO series models</li>
+                                    <li>Collect and annotate hundreds of images from the field for model development using RoboFlow</li>
+                                    <li>Integrate machine learning predictions into robotic movement by using ROS and MATLAB for C++</li>
+                                    <li>Test robots in the field and analyze the effectiveness of current solutions in written reports</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup" id="projects-popup">
+                    <div class="popup-header">
+                        <div class="title">
+                            > PROJECTS
+                        </div>
+                        <div id="projects-exit">
+                            <a>EXIT</a>
+                        </div>
+                    </div>
+                    <div class="popup-content">
+                        <div>
+                            <h3>BOMBERMAN</h3>
+                            <h4 class="italicized">C#, (Unity)</h4>
+                            <p>
+                                <ul class="with-bullets">
+                                    <li>Developed a modern recreation of Bomberman (for the Nintendo NES) using Unity with C#</li>
+                                    <li>Implemented 3 levels with randomly-generated maps that included various power ups and enemies</li>
+                                    <li>Designed and programmed the UI and the saving system</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup" id="skills-popup">
+                    <div class="popup-header">
+                        <div class="title">
+                            SKILLS
+                        </div>
+                        <div id="skills-exit">
+                            <a>EXIT</a>
+                        </div>
+                    </div>
+                    <div class="popup-content">
+                        <div>
+                            <h3>PROGRAMMING LANGUAGES</h3>
+                            <p> Java, Python, C/C++/C#, JavaScript, HTML, CSS, MATLAB</p>
+                            <h3>OTHER TECHNOLOGIES</h3>
+                            <p>TypeScript, Git, React, Next.js, Express, MongoDB, ROS, PyTorch</p>
+                            <h3>SPOKEN LANGUAGES</h3>
+                            <p>English, Spanish, German</p>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+            <div class="hidden-text"> 
+                <p id="easter-egg">Fun fact: this website is inspired by Alien, one of my favorite movies!</p>
+                <img src="assets/wyLogo.jpg" id="wy-logo">
+            </div> 
+        </div>
+    </body>
+    <script src="init.js"></script>
+</html>
